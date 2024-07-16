@@ -6,7 +6,7 @@ export type MenuOptions = {
   [key: string]: string;
 };
 
-export default function ResponsiveMenu() {
+export default function MobileMenu() {
   const [isMenuOpen, switchMenu] = useState<boolean>(false);
   const [currentMenu, swichCurrentMenu] = useState<string>("Inicio");
   useEffect(() => {
@@ -31,7 +31,10 @@ export default function ResponsiveMenu() {
   return (
     <>
       <button
-        onClick={() => switchMenu(!isMenuOpen)}
+        onClick={() => {
+          swichCurrentMenu(sessionStorage.getItem("page") || "Inicio");
+          switchMenu(!isMenuOpen);
+        }}
         className="flex rounded-lg justify-center w-[50%] h-[50%] focus:ring-gray-200 focus:ring-2 focus:outline-none"
       >
         <img

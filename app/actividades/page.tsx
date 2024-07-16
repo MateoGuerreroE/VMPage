@@ -3,8 +3,8 @@ import SectionA from "../views/Actividades/sectionA";
 
 export default function Page() {
   return (
-    <div>
+    <main className="flex min-h-screen flex-col items-center justify-between">
       <SectionA />
-    </div>
+    </main>
   );
 }
