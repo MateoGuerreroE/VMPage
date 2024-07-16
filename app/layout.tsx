@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Serif_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
-import Header from "./components/navbar";
+import NavBar from "./components/navbar";
 
 const dmdisplay = DM_Serif_Display({
   weight: "400",
@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${dmdisplay.variable} ${dmsans.variable}`}>
-        <Header />
+        <NavBar />
         {children}
       </body>
     </html>

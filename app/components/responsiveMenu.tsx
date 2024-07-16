@@ -2,6 +2,10 @@
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
+export type CompParams = {
+  def?: string;
+};
+
 export default function ResponsiveMenu() {
   const options = [
     ["Inicio", "home"],
@@ -23,8 +27,8 @@ export default function ResponsiveMenu() {
     setCurrentMenu(val[0]);
   };
   return (
-    <div className="">
-      <ul className="flex flex-row w-full text-white gap-12 pt-5">
+    <div className="pl-3">
+      <ul className="flex flex-row w-full text-white gap-12">
         {options.map((opt, idx) => (
           <div
             className={`flex flex-col overflow-x-hidden hover:cursor-pointer translate-[scale] duration-200 ${
@@ -37,7 +41,11 @@ export default function ResponsiveMenu() {
             onMouseEnter={() => isHovered(idx)}
             onMouseLeave={() => isHovered(-1)}
           >
-            <li className={`font-display text-xl`}>{opt[0]}</li>
+            <li
+              className={`font-display md:text-[2vh] lg:text-[1.25vh] lg:pt-3 xl:text-lg 2xl:text-[1.5vh] 2xl:pt-2`}
+            >
+              {opt[0]}
+            </li>
             <div
               className={`translate translate-[opacity] duration-300 h-[2px] w-[80%] bg-white rounded-full ${
                 currentMenu === opt[0]
