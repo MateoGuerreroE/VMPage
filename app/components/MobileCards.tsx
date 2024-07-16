@@ -39,6 +39,7 @@ export default function MobileCards() {
     <div className="w-full h-full">
       {data.map((val, idx) => (
         <div
+          key={idx}
           className={` h-full ${
             card === idx ? "opacity-100" : "hidden opacity-0"
           }`}
