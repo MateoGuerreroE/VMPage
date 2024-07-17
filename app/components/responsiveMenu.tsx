@@ -42,7 +42,7 @@ export default function ResponsiveMenu() {
             onMouseLeave={() => isHovered(-1)}
           >
             <li
-              className={`font-display md:text-[2vh] lg:text-[18px] xl:text-[15px] 2xl:text-[1.5vh] 2xl:pt-2`}
+              className={`font-display md:text-[2vh] lg:text-[18px] xl:text-[14px] 2xl:text-[1.5vh] 2xl:pt-2`}
             >
               {opt[0]}
             </li>

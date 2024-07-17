@@ -10,7 +10,7 @@ export default function NavBar() {
           <img
             src="main_logo.svg"
             alt="main logo"
-            className="w-[50vh] max-w-[250px] my-7 lg:m-0 lg:py-3 lg:w-[25vh]"
+            className="w-[50vh] max-w-[250px] my-7 lg:m-0 lg:py-3 lg:w-[25vh] xl:w-[21vh]"
           />
           <div className="hidden lg:flex w-full lg:h-[25%]">
             <ResponsiveMenu />
