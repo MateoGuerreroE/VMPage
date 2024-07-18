@@ -22,6 +22,7 @@ const config: Config = {
         act: "url('../public/bg/actividades.png')",
         biblo: "url('../public/bg/biblioteca.png')",
         contact: "url('../public/bg/contacto.png')",
+        artemis: "url('../public/bg/artemisa.jpg')",
       },
       colors: {
         "vm-darker": "#2f2e2f",

@@ -3,18 +3,21 @@ import React from "react";
 
 export default function SectionB() {
   return (
-    <section className="h-[100vh] w-full bg-[#898989]">
+    <section className="h-[140vh] md:h-[100vh] w-full bg-[#898989]">
       <div className="h-full w-full px-10 lg:p-0 flex lg:justify-center">
         <div className="flex flex-col lg:flex-row items-start h-full justify-center lg:w-[1500px] lg:px-[50px]">
           <div className="w-1/2 bg-black h-full hidden lg:flex"></div>
           <div className="w-full lg:w-1/2 h-full flex items-center">
-            <div className="h-[70%] lg:p-10 flex flex-col justify-center mt-20 md:m-0 text-white">
-              <h2 className="font-display text-3xl">
-                Marco Antonio Velilla Moreno
-              </h2>
-              <h4 className="font-display text-xl pb-5">
-                Jurista, humanista y hombre de Estado
-              </h4>
+            <div className="lg:p-10 flex flex-col justify-center md:m-0 text-white gap-5">
+              <div>
+                <h2 className="font-display text-4xl">
+                  Marco Antonio Velilla Moreno
+                </h2>
+                <h4 className="font-display text-2xl pb-5">
+                  Jurista, humanista y hombre de Estado
+                </h4>
+              </div>
+              <div className="md:hidden w-[90%] self-center h-[300px] bg-black mb-5"></div>
               <p className="font-dmsans pb-7 md:hidden">
                 Director General de Velilla Moreno Consulting, abogado de la
                 Universidad Pontificia Bolivariana con más de 40 años de
