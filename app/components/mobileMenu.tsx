@@ -44,8 +44,8 @@ export default function MobileMenu() {
         />
       </button>
       <div
-        className={`transition-[opacity] ease-in-out duration-700 absolute top-[150px] bg-gradient-to-r from-black left-0 w-[20%] h-[100vh] ${
-          isMenuOpen ? "opacity-50" : "opacity-0"
+        className={`transition-[right] duration-700 absolute top-[150px] bg-gradient-to-r from-black w-[20%] h-[100vh] ${
+          isMenuOpen ? "right-[85%]" : "right-[100%]"
         } `}
       ></div>
       <div

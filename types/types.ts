@@ -1,4 +1,5 @@
 export type MobileCardData = {
-    text: string;
-    title?: string;
-}
+  text: string;
+  mobileText?: string;
+  title?: string;
+};
