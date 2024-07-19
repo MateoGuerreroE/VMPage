@@ -4,7 +4,7 @@ import ResponsiveMenu from "./responsiveMenu";
 
 export default function NavBar() {
   return (
-    <nav className="fixed top-0 w-full flex justify-center bg-black bg-opacity-70 h-[150px] max-h-[200px] lg:h-[15vh] z-50">
+    <nav className="fixed top-0 w-full flex justify-center bg-black bg-opacity-90 h-[150px] max-h-[200px] lg:h-[15vh] z-50">
       <div className="w-full max-w-[1500px] h-full flex p-[3vh] lg:px-[50px] lg:py-[1vh] justify-between">
         <div className="flex flex-col justify-center gap-1 xl:gap-[10%] w-[80%]">
           <img

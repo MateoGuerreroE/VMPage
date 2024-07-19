@@ -3,6 +3,8 @@ import SectionA from "../views/Home/sectionA";
 import SectionB from "../views/Home/sectionB";
 import SectionC from "../views/Home/sectionC";
 import SectionD from "../views/Home/sectionD";
+import SectionE from "../views/Home/sectionE";
+import SectionF from "../views/Home/sectionF";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <SectionB />
       <SectionC />
       <SectionD />
+      <SectionE />
+      <SectionF />
     </main>
   );
 }
