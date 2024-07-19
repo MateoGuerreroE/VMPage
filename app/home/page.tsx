@@ -5,6 +5,7 @@ import SectionC from "../views/Home/sectionC";
 import SectionD from "../views/Home/sectionD";
 import SectionE from "../views/Home/sectionE";
 import SectionF from "../views/Home/sectionF";
+import Contacto from "../views/Shared/Contacto";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <SectionD />
       <SectionE />
       <SectionF />
+      <Contacto />
     </main>
   );
 }

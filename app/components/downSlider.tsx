@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 export default function DownSlider() {
-  const [section, setSection] = useState<number>(0);
+  const [section, setSection] = useState<number>(1);
   const changeSection = () => {
     setSection(section ? 0 : 1);
   };
@@ -15,7 +15,7 @@ export default function DownSlider() {
             section ? "translate-y-0" : "-translate-y-[50%]"
           }`}
         >
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <div className="bg-[#032739] aspect-w-1 aspect-h-1 text-white">
               <div className="w-full h-full p-10 flex flex-col gap-2 justify-center">
                 <h4 className="font-display text-2xl">
