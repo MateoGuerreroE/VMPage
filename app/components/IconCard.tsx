@@ -35,13 +35,13 @@ export default function IconCard({
         <h5 className="font-display text-lg">{title}</h5>
       </div>
       <div
-        className={`flex flex-col justify-center items-center transition-opacity duration-150 ${
+        className={`flex flex-col justify-center transition-opacity duration-150 p-7 ${
           hovered ? "opacity-100" : "opacity-0"
         }`}
       >
         <ul className="list-disc ml-3">
           {textList.map((item, idx) => (
-            <li key={idx} className={`font-dmsans text-${textSize}`}>
+            <li key={idx} className={`font-dmsans text-${textSize} w-[80%]`}>
               {item}
             </li>
           ))}

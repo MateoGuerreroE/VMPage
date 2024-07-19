@@ -37,11 +37,7 @@ export default function MobileMenu() {
         }}
         className="flex rounded-lg justify-center w-[50%] h-[50%] focus:ring-gray-200 focus:ring-2 focus:outline-none"
       >
-        <img
-          src="menu.svg"
-          alt="menu_icon"
-          className="w-[35px] hover:bg-gray-100"
-        />
+        <img src="menu.svg" alt="menu_icon" className="w-[35px] self-center" />
       </button>
       <div
         className={`transition-[right] duration-700 absolute top-[150px] bg-gradient-to-r from-black w-[20%] h-[100vh] ${

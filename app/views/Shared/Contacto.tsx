@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contacto() {
   return (
-    <section className="bg-black h-[60vh]">
+    <section className="bg-black h-[60vh] w-full">
       <div className="flex flex-row px-10 h-full w-full">
         <div className="flex flex-col h-full w-full justify-center gap-5">
           <h3 className="font-display text-4xl text-white">Contáctanos</h3>
