@@ -3,11 +3,11 @@ import React from "react";
 
 export default function SectionF() {
   return (
-    <section className="h-[110vh] bg-white">
-      <div className="flex px-10 h-full w-full">
-        <div className="flex flex-col h-full w-full justify-center gap-5">
+    <section className="w-full py-24 bg-white">
+      <div className="flex px-10 w-full lg:justify-center">
+        <div className="flex flex-col w-full justify-center gap-5 max-w-[1500px] lg:px-[50px] lg:gap-10">
           <h3 className="font-display text-black text-4xl">Clientes</h3>
-          <div className="flex flex-col gap-5 text-white">
+          <div className="flex flex-col gap-5 text-white md:grid md:grid-cols-2 lg:grid-cols-4">
             <IconCard
               key={"card1"}
               icon="nacional.svg"

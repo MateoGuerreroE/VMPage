@@ -29,7 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${dmdisplay.variable} ${dmsans.variable}`}>
+      <body
+        className={`${dmdisplay.variable} ${dmsans.variable} overflow-x-hidden w-[100vw]`}
+      >
         <NavBar />
         {children}
       </body>

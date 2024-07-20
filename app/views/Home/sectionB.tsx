@@ -1,12 +1,23 @@
 import ExternalURLButton from "@/app/components/externalButton";
+import Image from "next/image";
 import React from "react";
 
 export default function SectionB() {
   return (
-    <section className="h-[135vh] md:h-[100vh] w-full bg-[#898989]">
+    <section className="py-32 w-full bg-[#898989]">
       <div className="h-full w-full px-10 lg:p-0 flex lg:justify-center">
         <div className="flex flex-col lg:flex-row items-start h-full justify-center lg:w-[1500px] lg:px-[50px]">
-          <div className="w-1/2 bg-black h-full hidden lg:flex"></div>
+          <div className="w-1/2 h-full hidden lg:flex flex-col">
+            <Image
+              src={"/bg/actividades.png"}
+              alt="sample"
+              width={0}
+              height={0}
+              layout="cover"
+              className="w-full"
+              unoptimized
+            />
+          </div>
           <div className="w-full lg:w-1/2 h-full flex items-center">
             <div className="lg:p-10 flex flex-col justify-center md:m-0 text-white gap-5">
               <div>
@@ -17,7 +28,7 @@ export default function SectionB() {
                   Jurista, humanista y hombre de Estado
                 </h4>
               </div>
-              <div className="md:hidden w-full self-center h-[350px] bg-black mb-5"></div>
+              <div className="lg:hidden md:w-[70%] md:h-[500px] w-full self-center h-[350px] bg-black mb-5"></div>
               <p className="font-dmsans md:hidden">
                 Director General de Velilla Moreno Consulting, abogado de la
                 Universidad Pontificia Bolivariana con más de 40 años de

@@ -28,7 +28,7 @@ export default function ResponsiveMenu() {
   };
   return (
     <div className="pl-3">
-      <ul className="flex flex-row w-full text-white gap-7 lg:gap-5 lg:pt-3 xl:pt-0 xl:gap-12 items-center">
+      <ul className="flex flex-row w-full text-white gap-7 lg:gap-5 py-3 xl:gap-12 items-center 2xl:text-xl">
         {options.map((opt, idx) => (
           <div
             className={`flex flex-col overflow-x-hidden hover:cursor-pointer translate-[scale] duration-200 ${
@@ -41,11 +41,7 @@ export default function ResponsiveMenu() {
             onMouseEnter={() => isHovered(idx)}
             onMouseLeave={() => isHovered(-1)}
           >
-            <li
-              className={`font-display md:text-[2vh] lg:text-[18px] xl:text-[14px] 2xl:text-[1.5vh] 2xl:pt-2`}
-            >
-              {opt[0]}
-            </li>
+            <li className={`font-display 2xl:pt-2`}>{opt[0]}</li>
             <div
               className={`translate translate-[opacity] duration-300 h-[2px] w-[80%] bg-white rounded-full ${
                 currentMenu === opt[0]

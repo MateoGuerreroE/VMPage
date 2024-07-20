@@ -46,7 +46,7 @@ export default function DownSlider() {
                 </p>
               </div>
             </div>
-            <div className="bg-[#e3dfd6] aspect-w-1 aspect-h-1 text-black">
+            <div className="bg-black aspect-w-1 aspect-h-1 text-white">
               <div className="w-full h-full p-10 flex flex-col gap-2 justify-center">
                 <h4 className="font-display text-2xl">Gran red de formación</h4>
                 <p className="font-dmsans text-lg">

@@ -4,15 +4,15 @@ import ResponsiveMenu from "./responsiveMenu";
 
 export default function NavBar() {
   return (
-    <nav className="fixed top-0 w-full flex justify-center bg-black bg-opacity-90 h-[150px] max-h-[200px] lg:h-[15vh] z-50">
-      <div className="w-full max-w-[1500px] h-full flex p-[3vh] lg:px-[50px] lg:py-[1vh] justify-between">
-        <div className="flex flex-col justify-center gap-1 xl:gap-[10%] w-[80%]">
+    <nav className="fixed top-0 w-full flex justify-center bg-black bg-opacity-90 z-50">
+      <div className="w-full max-w-[1500px] h-full flex px-[2vh] lg:px-[50px] pt-5 pb-2 2xl:pb-4 justify-between">
+        <div className="flex flex-col justify-center gap-2 w-[80%]">
           <img
             src="main_logo.svg"
             alt="main logo"
-            className="w-[50vh] max-w-[250px] my-7 lg:m-0 lg:py-3 lg:w-[25vh] xl:w-[21vh]"
+            className="w-[30vh] max-w-[250px] my-7 lg:m-0 lg:py-3 lg:w-[25vh] xl:w-[21vh]"
           />
-          <div className="hidden lg:flex w-full lg:h-[25%]">
+          <div className="hidden lg:flex w-full">
             <ResponsiveMenu />
           </div>
         </div>

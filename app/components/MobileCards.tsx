@@ -7,7 +7,7 @@ import InfoCard from "./infoCard";
 
 export default function MobileCards() {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-[500px]">
       <Carousel slide={false}>
         {mobileCardHomeData.map((info: MobileCardData, idx: number) => (
           <InfoCard
